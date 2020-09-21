@@ -1,0 +1,46 @@
+html { 
+  background: url(https://i.pinimg.com/originals/85/eb/53/85eb53d9a834600ff75eb94bf0f064a0.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div {
+    margin-top: 50px 20px;
+    padding: 20px 20px;
+    padding-bottom: 50px;
+   background-color: rgba(246, 155, 185, 0.8)
+    
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    opacity: 1;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+h2,h3, h4, ul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    font-size: 18px;
+}
+
+.future {
+   margin-top: 200px; 
+}
+    
+
