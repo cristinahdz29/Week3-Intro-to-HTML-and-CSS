@@ -1,0 +1,89 @@
+.box {
+  height: 20px;
+  width: 50px;
+  display: inline-block;
+}
+.background-box {
+    background-color: black;
+    padding-top: 3%;
+    padding-left:1%;
+    width: 87%;
+    position: relative;
+    left: 20;
+    margin-top: 15px;
+}
+
+.window {
+    position: absolute;
+    background-color: #a7c4a4;
+    width: 371px;
+    height: 402px;
+    padding: 18px 1px;
+    top: 200px;
+    left: 250px;
+}
+
+.box.yellow {
+    background-color: yellow;
+}
+
+.box.red {
+   background-color: red; 
+}
+
+.box.black {
+    background-color: black;
+    
+}
+
+.box.green {
+    
+    background-color: green;
+}
+
+.box.blue {
+    background-color:blue;
+
+}
+
+.player {
+    position: relative;
+    width: 73px;
+    margin-left: 130px;
+    top: -3px;
+    height: 10px;
+    background-color: rgb(167, 196, 164);
+}
+
+.ball1, .ball2 {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    
+}
+
+.ball1 {
+    top: 58px;
+    left: 112px;  
+}
+
+
+
+.ball2 {
+    top: 210px;
+    left: 5px;  
+}
+
+.score {
+    color: white;
+    background-color: black;
+    text-align: right;
+    position: absolute;
+    top: 1;
+    width: inherit;
+}
+
+label {
+    margin-right: 50px;
+}
