@@ -1,0 +1,108 @@
+body {
+  height: 100%;
+  background-color: #23784e;
+}
+
+#container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 5% 0;
+}
+
+#banner {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fefffe;
+  width: 100%;
+}
+
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  /* width: 100%; */
+}
+
+.pickup-announcement {
+  padding-right: 30px;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  padding-right: 19px;
+}
+
+.banner-content a {
+  color: white;
+  text-align: center;
+}
+
+.pickup-announcement label {
+  width: 333px;
+  text-align: justify;
+}
+
+button {
+  background-color: #23784e;
+}
+
+.remainder-content {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+}
+
+#intro {
+  margin-top: 2%;
+}
+
+#intro label {
+  font-size: 17px;
+  line-height: 1.7;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #f8f8f8;
+}
+
+#featured_art {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.carousel-inner > .carousel-item > img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.btn.pink {
+  background-color: #e3bdd1;
+}
+
+.btn.pink:hover {
+  background-color: #eea2cb;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #ff007f;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: #e3bdd1;
+}
